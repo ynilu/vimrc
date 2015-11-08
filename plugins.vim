@@ -18,9 +18,14 @@ Plugin 'amix/open_file_under_cursor.vim'
 Plugin 'michaeljsmith/vim-indent-object'
 Plugin 'terryma/vim-expand-region'
 Plugin 'tpope/vim-fugitive'
-Plugin 'scrooloose/nerdcommenter'
 Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'flazz/vim-colorschemes'
+
+""""""""""""""""""""""""""""""
+" => Nerdcommenter
+""""""""""""""""""""""""""""""
+Plugin 'scrooloose/nerdcommenter'
+map <leader>; <plug>NERDCommenterToggle
 
 """"""""""""""""""""""""""""""
 " => Ultisnips
