@@ -120,8 +120,10 @@ let g:multi_cursor_next_key="\<C-s>"
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => vim-airline config (force color)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-Plugin 'bling/vim-airline'
-let g:airline_theme="luna"
+Plugin 'itchyny/lightline.vim'
+let g:lightline = {
+      \ 'colorscheme': 'wombat'
+      \ }
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
